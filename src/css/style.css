@@ -1,0 +1,639 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Futura PT;
+  src: url(/fonts/FuturaPT-Book.woff);
+  src: url(/fonts/FuturaPT-Book.woff2);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+h2 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7af7d9;
+  margin-bottom: 10px;
+}
+.desc__top {
+  display: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.small__mobile {
+  max-width: 320px;
+  background: #003c66;
+}
+.desc__top {
+  max-width: 1600px;
+}
+.container {
+  border-radius: 10px;
+}
+h3 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #0971e6;
+}
+.user__text-style {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7af7d9;
+}
+.user__about-style {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 107.57%;
+  color: #ffffff;
+  padding-left: 8px;
+}
+.user__foto {
+  padding-top: 30px;
+  text-align: center;
+}
+.foto {
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+.user__name {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+}
+.collapse {
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+}
+.contact {
+  margin-bottom: 32px;
+}
+.contact-underline {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  margin-bottom: 16px;
+}
+.card-body {
+  background: none;
+  border: none;
+}
+.user_button {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  background: none;
+  border: none;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 31px;
+  color: #7af7d9;
+}
+.location,
+.phone {
+  display: flex;
+  margin-bottom: 14px;
+}
+.social__networks__uls > li > a {
+  vertical-align: sub;
+}
+.social__networks__uls > li {
+  margin-bottom: 14px;
+  color: #6be0cb;
+  list-style-position: inside;
+  line-height: 107%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li::marker {
+  font-size: 1.5rem;
+}
+li > a {
+  margin-left: -10px;
+}
+.user__about {
+  margin-bottom: 50px;
+}
+.user__about-style:hover {
+  color: #6be0cb;
+}
+.education__work__text {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 107.57%;
+  color: #ffffff;
+}
+.work__text {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 107.54%;
+  color: #7af7d9;
+}
+button.accordion-button.collapsed {
+  background-color: #003c66;
+}
+.accordion {
+  --bs-accordion-bg: white;
+  --bs-accordion-color: white;
+  --bs-accordion-btn-color: #ffffff;
+  --bs-accordion-btn-icon: none;
+  --bs-accordion-active-color: #ffffff;
+  --bs-accordion-active-bg: #0078cc;
+  --bs-accordion-border-color: hidden;
+}
+.accordion-body {
+  padding: 3px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1b1b1b;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button {
+  width: 100%;
+  border-radius: 10px;
+}
+.certificate {
+  max-width: 330px;
+}
+.courses__title {
+  padding-top: 5px;
+  display: flex;
+  margin-bottom: 30px;
+}
+hr {
+  width: 320px;
+  opacity: 100%;
+  margin-left: 15px;
+  color: #0971e6;
+  transform: scaleY(2);
+}
+.card__courses__wraper {
+  width: 290px;
+  height: 200px;
+  border-radius: 10px;
+  background: white;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.courses__title {
+  display: flex;
+  align-items: center;
+}
+.courses__wraper {
+  margin-left: 5px;
+}
+.card__courses__title > a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+.card__courses__title a:hover {
+  color: #1067ca;
+}
+.card__IT__academy {
+  background: #edf3fc;
+  border-radius: 4px;
+  width: 170px;
+  height: 30px;
+  text-align: center;
+}
+.card__IT__academy a:hover {
+  color: #1067ca;
+}
+.card__IT__academy > a {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #135bab;
+}
+.course__info__botom {
+  cursor: pointer;
+  margin-top: 47px;
+  width: 290px;
+  height: 40px;
+  padding: 0px 20px 0px 20px;
+  background: #0078cc;
+  border-radius: 0px 0px 10px 10px;
+}
+.course__info__wraper {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course__info__botom:hover {
+  background: #003c66;
+}
+.review {
+  padding: 10px;
+  text-align: justify;
+}
+.info__levels__title,
+.course__duration__about,
+.dropdown__info {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 10px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 2px;
+}
+.btn {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+.language__selected {
+  align-self: baseline;
+  padding-top: 4px;
+}
+.dropdown-menu {
+  height: 40px;
+  border: none;
+  --bs-dropdown-min-width: 3rem;
+}
+.dropdown-menu a {
+  color: #003c66;
+  display: flex;
+  justify-content: center;
+}
+.dropdown__info:hover {
+  color: #0078cc;
+}
+.dropdown-menu__titile:hover {
+  color: #0078cc;
+}
+.public-offer__profile-info {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.underline__offer {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  width: 100%;
+  margin-bottom: 20px;
+}
+.public-offer__btn {
+  width: 74px;
+  height: 74px;
+  background: linear-gradient(180deg, #009eff 0%, #0971e6 100%);
+  border-radius: 50%;
+  margin-left: 19px;
+}
+.public-offer__btn__text {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.public-offer {
+  height: 100px;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+.profile-info {
+  padding-bottom: 14px;
+  max-width: 100%;
+  height: 100px;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.progress {
+  max-width: 70%;
+  margin-left: 8px;
+}
+.profile-info__label {
+  margin-left: 5px;
+  color: white;
+}
+.intita__social_networks {
+  width: 320px;
+  height: 60px;
+}
+.icons {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+.intita__icon1-hover:hover {
+  background: url(icons/facebook\ 1.png);
+  width: 28px;
+  height: 28px;
+}
+.intita__icon2-hover:hover {
+  background: url(icons/linkedin\ 1.png);
+  width: 28px;
+  height: 28px;
+}
+.intita__icon3-hover:hover {
+  background: url(icons/twitter\ 1.png);
+  width: 28px;
+  height: 28px;
+}
+.intita_logo {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .small__mobile {
+    max-width: 1024px;
+  }
+  .certificate_style {
+    display: flex;
+    justify-content: center;
+  }
+  hr {
+    width: 850px;
+  }
+  .card__courses__wraper {
+    box-shadow: 2px 8px 30px #d2d8e9;
+  }
+  .intita__social_networks {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 1025px) {
+  .small__mobile {
+    display: none;
+  }
+  .desc__top {
+    display: block;
+    display: flex;
+    padding: 20px;
+  }
+  .left__side-bar {
+    max-width: 340px;
+    background: #003c66;
+    border-radius: 10px;
+    padding: 23px 11px 0px 29px;
+  }
+  .foto {
+    max-width: 60%;
+    height: auto;
+  }
+  .name {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .name-color {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    color: #7af7d9;
+    margin-bottom: 40px;
+  }
+  .location__btn {
+    background: url(../../icons/maplocation.png) no-repeat;
+    height: 25px;
+    width: 22px;
+  }
+  .left__side-bar-text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 107.57%;
+    color: #ffffff;
+  }
+  .left__side-bar-text:hover {
+    color: #63edd7;
+  }
+  .left__side-bar-text:active {
+    color: #20eccb;
+  }
+  .contact__location,
+  .contact__phone,
+  .contact__email {
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+  }
+  .phone__btn {
+    background: url(../../icons/phone\ 1.png) no-repeat;
+    width: 22px;
+    height: 25px;
+  }
+  .email__btn {
+    background: url(../../icons/mail\ 1.png) no-repeat;
+    width: 24px;
+    height: 25px;
+  }
+  .social__networks {
+    margin-bottom: 55px;
+  }
+  li > a {
+    margin-left: -8px;
+  }
+
+  .right__side-bar {
+    max-width: 1140px;
+    height: 855px;
+  }
+  .public-offer {
+    width: 390px;
+    height: 100px;
+    box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .public-offer__btn:hover {
+    background: linear-gradient(180deg, #009eff 0%, #1067ca 100%);
+  }
+  .public-offer__btn:active {
+    background: linear-gradient(180deg, #009eff 0%, #074c9a 100%);
+  }
+  .public-offer__btn__text {
+    color: #535353;
+  }
+  .profile-info {
+    padding-bottom: 14px;
+    max-width: 62%;
+    height: 100px;
+    box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+    border-radius: 10px;
+  }
+  .public-offer__profile-info {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .profile-info__label {
+    margin-left: 5px;
+    color: #535353;
+  }
+  .progress {
+    max-width: 70%;
+    margin-left: 8px;
+  }
+  .profile-info__label {
+    margin-left: 5px;
+  }
+  .tabs {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    max-width: 100%x;
+    height: 90px;
+    box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+    border-radius: 10px;
+  }
+  .tabs__text {
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #788387;
+    margin-left: 16px;
+    border: none;
+    background: inherit;
+  }
+  .tab-item {
+    display: none;
+    padding-top: 20px;
+  }
+  .tabs__text:hover {
+    color: #0e7bf6;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-position: under;
+    text-underline-offset: 10px;
+  }
+  .tabs__text:active {
+    color: #0e7bf6;
+  }
+  .card-body__diplome {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    padding: 30px;
+    border: none;
+    box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+    border-radius: 10px;
+  }
+  .collapse {
+    padding-top: 20px;
+  }
+  hr {
+    width: 985px;
+  }
+  .card__courses__wraper {
+    width: 504px;
+    height: 188px;
+    box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+    border-radius: 10px;
+    padding: 20px 20px 0px 20px;
+  }
+  .courses__wraper {
+    margin-bottom: 20px;
+  }
+  .course__info__botom {
+    margin-left: -20px;
+    margin-top: 0px;
+    width: 504px;
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+    background: #0078cc;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .card__courses__title {
+    margin-bottom: 58px;
+  }
+  .card__feedback__text {
+    width: 100%;
+    border: 1px solid #003c66;
+    padding: 10px;
+  }
+  .course__php__btn {
+    margin-top: -5px;
+    margin-right: -3px;
+  }
+  .card__services__wraper {
+    margin-bottom: 70px;
+  }
+  .social-net-intita {
+    position: fixed;
+    top: 45%;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px 0px 0px 10px;
+    width: 56px;
+    height: 124px;
+}
+
+.social-net-intita__item {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+}
+}
