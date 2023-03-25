@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <title>Students Revies</title>
+</head>
+
+<body>
+    <div class="container small__mobile">
+        <div class="user__foto">
+            <img class="foto" src="img/main/StudentPhoto.png" alt="user foto" width="180">
+            <h1 class="user__name">Юрій Кузнєцов</h1>
+        </div>
+        <div class="user__about">
+            <p class="user_button">
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#contucts"
+                    aria-expanded="false" aria-controls="contucts">
+                    Детальніше <span><img src="icons/arrow up.png" alt=""></span>
+                </button>
+            </p>
+            <div class="collapse" id="contucts">
+                <div class="card card-body">
+                    <div class="contact">
+                        <h2 class="user__text-style">Контакти</h2>
+                        <p class="contact-underline"></p>
+                        <div class="location">
+                            <img src="icons/maplocation.png" alt="location" width="22" height="25">
+                            <a class="user__about-style" width="330">807 5th Ave, New York, NY 10065, USA</a>
+                        </div>
+                        <div class="phone">
+                            <img src="icons/phone 1.png" alt="location" width="22" height="25">
+                            <a href="tel:+1-(212)-555-0160" class="user__about-style">+1-(212)-555-0160</a>
+                        </div>
+                        <div class="email">
+                            <img src="icons/mail 1.png" alt="location" width="22" height="25">
+                            <a href="mailto: someone@example.com" class="user__about-style">
+                                univer@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="user__social__networks">
+                        <h2 class="user__text-style">соціальні мережі</h2>
+                        <p class="contact-underline"></p>
+                        <ul class="social__networks__uls">
+                            <li>
+                                <a class="user__about-style" href="https://www.facebook.com/kuzznietsov"
+                                    target="_blank">Facebook</a>
+                            </li>
+                            <li>
+                                <a class="user__about-style" href="https://www.instagram.com/kuzznietsov/"
+                                    target="_blank">Instagram</a>
+                            </li>
+                            <li>
+                                <a class="user__about-style" href="https://www.linkedin.com/in/yuriikuznietsov/"
+                                    target="_blank">Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="user__education__work">
+                        <h2 class="user__text-style">Освіта / робота</h2>
+                        <p class="contact-underline"></p>
+                        <p class="education__work__text">
+                            <span class="work__text">Освіта:</span> ХНУ
+                        </p>
+                        <p class="education__work__text">
+                            <span class="work__text">Працює:</span> PINPOOLS GmbH · Contract
+                        </p>
+                        <p class="education__work__text">
+                            <span class="work__text">Форма навчання: </span>вечірня
+                        </p>
+                        <p class="education__work__text">
+                            <span class="work__text">Тренер: </span>Vinnytsia IT Akademy
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="contact-underline"></p>
+            <!-- Acardion -->
+            <div class="accord__wraper">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="accordion-flush-collapseOne">
+                                Сервіси
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="card__services__wraper">
+                                    <div class="courses__title">
+                                        <h3>курси</h3>
+                                        <hr>
+                                    </div>
+                                    <div class="card__courses__wraper">
+                                        <div class="card__courses d-flex justify-content-between">
+                                            <div class="courses__wraper ">
+                                                <div class="card__courses__title">
+                                                    <a href="https://intita.com/courses/1" target="_blank"
+                                                        title="Вінницька ІТ-Академія">
+                                                        <p>Full Stack / РНР</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card__IT__academy">
+                                                    <a href="https://intita.com/providers/vinnytsia-it-academy"
+                                                        target="_blank" title="provider">Вінницька ІТ-Академія</a>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn course__php__btn" title="PHP course"> <img
+                                                    src="img/main/PHP.png" alt="offers " width="104"></button>
+                                        </div>
+                                        <div class="course__info__botom">
+                                            <div class="course__info__wraper">
+                                                <div class="course__info__levels d-flex">
+                                                    <img src="icons/Group 579.png" alt="level" width="28" height="17">
+                                                    <p class="info__levels__title">Високий</p>
+                                                </div>
+                                                <div class="course__duration">
+                                                    <p class="course__duration__about">12 місяців
+                                                        (34 заняття)</p>
+                                                </div>
+                                                <div class="btn-group language__selected ">
+                                                    <button class="btn language__btn " type="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <img src="icons/earth.png" alt="language" width="19"
+                                                            height="19">
+                                                        <a class="dropdown__info" title="language">ua</a>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a class="dropdown-menu__titile" href="#">en</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__services__wraper">
+                                    <div class="courses__title">
+                                        <h3>модулі</h3>
+                                        <hr>
+                                    </div>
+                                    <div class="card__courses__wraper">
+                                        <div class="card__courses d-flex justify-content-between">
+                                            <div class="courses__wraper ">
+                                                <div class="card__courses__title">
+                                                    <a href="https://intita.com/courses/1" target="_blank"
+                                                        title="Вінницька ІТ-Академія">
+                                                        <p>Level up English</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card__IT__academy">
+                                                    <a href="https://intita.com/providers/vinnytsia-it-academy"
+                                                        target="_blank" title="provider">Вінницька ІТ-Академія</a>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn course__php__btn" title="PHP course"> <img
+                                                    src="img/main/English.png" alt="offers " width="104"></button>
+                                        </div>
+                                        <div class="course__info__botom">
+                                            <div class="course__info__wraper">
+                                                <div class="course__info__levels d-flex">
+                                                    <img src="icons/Group 579.png" alt="level" width="28" height="17">
+                                                    <p class="info__levels__title">Високий</p>
+                                                </div>
+                                                <div class="course__duration">
+                                                    <p class="course__duration__about">12 місяців
+                                                        (34 заняття)</p>
+                                                </div>
+                                                <div class="btn-group language__selected ">
+                                                    <button class="btn language__btn " type="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <img src="icons/earth.png" alt="language" width="19"
+                                                            height="19">
+                                                        <a class="dropdown__info" title="language">ua</a>
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li>
+                                                            <a class="dropdown-menu__titile" href="#">en</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Проєкт
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Coming soon :D</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Відгук
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ">
+                                <p class="review">
+
+                                    Навчався в технікумі та університеті, за спеціальністю
+                                    радіотехнік. Працював за кордоном. Коли
+                                    повернувся в Україну, не
+                                    знав чим зайнятись і вирішив спробувати себе у ІТ. Побачив рекламу Вінницької
+                                    ІТ-Академії, дізнався,
+                                    що ще й близько
+                                    біля мене і вирішив тут навчатись.
+                                    Під час навчання сподобалось працювати із менторами. Завдяки роботі на реальних
+                                    проектах
+                                    не відчував
+                                    проблем коли
+                                    прийшов на роботу. Адже іноді потрапляють погано написані проекти, і ти не відчуваєш
+                                    розгубленості -
+                                    ти чітко знаєш, що
+                                    робити. Особлива подяка Олександру Панченко, який терпів усі наші “запитання” і не
+                                    лише,
+                                    а запитань
+                                    має бути завжди
+                                    багато.
+                                    Після навчання пройшов 2 співбесіди, обидві успішно. Далі сам обирав компанію, в
+                                    якій
+                                    працюю уже 1,5
+                                    роки
+                                    web-розробником. Робота подобається тим, що часто трапляються цікаві проекти і є
+                                    можливість
+                                    працювати віддалено.
+                                    Майбутнім абітурієнтам бажаю мати натхнення та терпіння, тоді у вас все вийде.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Сертифікат
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body certificate_style"><img class="certificate"
+                                    src="img/main/Diplom.png" alt="certificate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="underline__offer"></div>
+        <div class="public-offer__profile-info row justify-content-between">
+            <div class="public-offer d-flex align-items-center ">
+                <button type="button" class="btn public-offer__btn"> <img src="icons/google-docs 1.png"
+                        alt="offers"></button>
+                <a class="public-offer__btn__text" href="https://intita.com/policy" target="_blank">Публічна
+                    оферта</a>
+            </div>
+            <div class="profile-info d-flex flex-column justify-content-around">
+                <label for="progres-user" class="profile-info__label">Профіль заповнено на 70%</label>
+                <div class="progress" id="progres-users" role="progressbar" aria-label="Basic example"
+                    style="height: 10px" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 70%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="intita__social_networks">
+            <div class="icons">
+                <a class="intita__icon1-hover" href="http://www.facebook.com/sharer.php?u=https://ita.in.ua/"
+                    title="facebook" target="_blank" rel="noopener">
+                    <img src="icons/facebook 2.png" alt="facebook" width="28" height="28">
+                </a>
+                <a class="intita__icon2-hover"
+                    href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ita.in.ua/&amp;title=Hackers' School&amp;source=LinkedIn"
+                    target="_blank" title="linkedin" rel="noopener">
+                    <img src="icons/linkedin 2.png" alt="linkedin" width="28" height="28">
+                </a>
+                <a class="intita__icon3-hover" href="https://twitter.com/share?url=https://ita.in.ua/" target="_blank"
+                    title="twitter" rel="noopener">
+                    <img src="icons/twitter 2.png" alt="twitter" width="28" height="28">
+                </a>
+            </div>
+        </div>
+        <div class="intita_logo">
+            <a class="logo" href="https://intita.com/"><img src="icons/лого.png" width="136" alt="INTITA logo"
+                    title="INTITA HOME">
+            </a>
+        </div>
+    </div>
+    <!-- DecTop Version -->
+    <div class="container desc__top">
+        <div class="left__side-bar  col-3 ">
+            <div class="student__foto text-center">
+                <img class="foto" src="img/main/StudentPhoto.png" title="Yurii Kuznietsov" alt="User photo">
+            </div>
+            <div class="student__name__name-color">
+                <h1 class="name">Юрій Кузнєцов </h1>
+                <p class="name-color">Yurii Kuznietsov</p>
+            </div>
+            <div class="contact">
+                <h2>Контакти</h2>
+                <p class="contact-underline"></p>
+                <div class="contact__location__phone__email ">
+                    <div class="contact__location row mx-auto">
+                        <button type="button" class="btn location__btn me-1" data-bs-toggle="collapse"
+                            data-bs-target="#collapseWidthExample" aria-expanded="false"
+                            aria-controls="collapseWidthExample"></button>
+                        <a href="https://goo.gl/maps/xVqBbBsMj3ABuqFD6" class="left__side-bar-text p-0 col "
+                            data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                            aria-controls="collapseWidthExample" role="button">807 5th Ave, New York, NY 10065, USA</a>
+                        <div>
+                            <div class=" collapse collapse-horizontal p-0" id="collapseWidthExample">
+                                <div class="card card-body p-0" style="width: 280px;">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.5210170590713!2d-73.97089686126817!3d40.765867726416296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f1d4dedbdd%3A0xfefbd509be6aae86!2zODA3IDV0aCBBdmUsIE5ldyBZb3JrLCBOWSAxMDA2NSwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1677417937103!5m2!1sru!2sua"
+                                        width="280" height="280" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact__phone row mx-auto">
+                        <button type="submit" class="btn phone__btn me-1">
+                            <a href="tel:+1-(212)-555-0160"></a>
+                        </button>
+                        <a href="tel:+1-(212)-555-0160" class="left__side-bar-text p-0 col ">+1-(212)-555-0160</a>
+                    </div>
+                    <div class="contact__email row mx-auto">
+                        <button type="button" class="btn email__btn me-1">
+                            <a href="mailto:someone@example.com" target="_top"></a>
+                        </button>
+                        <a href="mailto: someone@example.com" class="left__side-bar-text p-0 col ">
+                            univer@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__networks-bar">
+                <h2>соціальні мережі</h2>
+                <p class="contact-underline"></p>
+            </div>
+            <div class="social__networks">
+                <ul class="social__networks__uls">
+                    <li>
+                        <a class="left__side-bar-text" href="https://www.facebook.com/kuzznietsov"
+                            target="_blank">Facebook</a>
+                    </li>
+                    <li>
+                        <a class="left__side-bar-text" href="https://www.instagram.com/kuzznietsov/"
+                            target="_blank">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="left__side-bar-text" href="https://www.linkedin.com/in/yuriikuznietsov/"
+                            target="_blank">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="education__work">
+                <h2>Освіта / робота</h2>
+                <p class="contact-underline"></p>
+                <p class="education__work__text">
+                    <span class="work__text">Освіта:</span> ХНУ
+                </p>
+                <p class="education__work__text">
+                    <span class="work__text">Працює:</span> PINPOOLS GmbH · Contract
+                </p>
+                <p class="education__work__text">
+                    <span class="work__text">Форма навчання: </span>вечірня
+                </p>
+                <p class="education__work__text">
+                    <span class="work__text">Тренер: </span>Vinnytsia IT Akademy
+                </p>
+            </div>
+        </div>
+        <div class="right__side-bar col-9 mx-5">
+            <div class="public-offer__profile-info row justify-content-between">
+                <div class="public-offer d-flex align-items-center ">
+                    <button type="button" class="btn public-offer__btn"> <img src="icons/google-docs 1.png"
+                            alt="offers"></button>
+                    <a class="public-offer__btn__text" href="https://intita.com/policy" target="_blank">Публічна
+                        оферта</a>
+                </div>
+                <div class="profile-info d-flex flex-column justify-content-around">
+                    <label for="progres-user" class="profile-info__label">Профіль заповнено на 68%</label>
+                    <div class="progress" id="progres-user" role="progressbar" aria-label="Basic example"
+                        style="height: 10px" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 68%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs">
+                <button class="nav-link tabs__text" onclick="showTab(event, 'services')">Сервіси</button>
+                <button class="nav-link tabs__text" onclick="showTab(event, 'projects')">Проекти</button>
+                <button class="nav-link tabs__text " onclick="showTab(event, 'feedback')">Твій відгук</button>
+                <button class="nav-link tabs__text" onclick="showTab(event, 'certificate')">Сертифікати</button>
+            </div>
+            <div id="services" class="tab-item">
+                <div class="card card-body">
+                    <div class="card__services__wraper">
+                        <div class="courses__title">
+                            <h3>курси</h3>
+                            <hr>
+                        </div>
+                        <div class="card__courses__wraper">
+                            <div class="card__courses d-flex justify-content-between">
+                                <div class="courses__wraper ">
+                                    <div class="card__courses__title">
+                                        <a href="https://intita.com/courses/1" target="_blank"
+                                            title="Вінницька ІТ-Академія">
+                                            <p>Full Stack / РНР</p>
+                                        </a>
+                                    </div>
+                                    <div class="card__IT__academy">
+                                        <a href="https://intita.com/providers/vinnytsia-it-academy" target="_blank"
+                                            title="provider">Вінницька ІТ-Академія</a>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn course__php__btn" title="PHP course"> <img
+                                        src="img/main/PHP.png" alt="offers " width="104"></button>
+                            </div>
+                            <div class="course__info__botom">
+                                <div class="course__info__wraper">
+                                    <div class="course__info__levels d-flex">
+                                        <img src="icons/Group 579.png" alt="level" width="28" height="17">
+                                        <p class="info__levels__title">Високий</p>
+                                    </div>
+                                    <div class="course__duration">
+                                        <p class="course__duration__about">12 місяців
+                                            (34 заняття)</p>
+                                    </div>
+                                    <div class="btn-group language__selected ">
+                                        <button class="btn language__btn " type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <img src="icons/earth.png" alt="language" width="19" height="19">
+                                            <a class="dropdown__info" title="language">ua</a>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-menu__titile" href="#">en</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__services__wraper">
+                        <div class="courses__title">
+                            <h3>модулі</h3>
+                            <hr>
+                        </div>
+                        <div class="card__courses__wraper">
+                            <div class="card__courses d-flex justify-content-between">
+                                <div class="courses__wraper ">
+                                    <div class="card__courses__title">
+                                        <a href="https://intita.com/courses/1" target="_blank"
+                                            title="Вінницька ІТ-Академія">Level
+                                            up English</a>
+                                    </div>
+                                    <div class="card__IT__academy">
+                                        <a href="https://intita.com/providers/vinnytsia-it-academy" target="_blank"
+                                            title="provider">Вінницька ІТ-Академія</a>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn course__php__btn" title="PHP course"><img
+                                        src="img/main/English.png" alt="offers " width="104"></button>
+                            </div>
+                            <div class="course__info__botom">
+                                <div class="course__info__wraper">
+                                    <div class="course__info__levels d-flex">
+                                        <img src="icons/Group 579.png" alt="level" width="28" height="17">
+                                        <p class="info__levels__title">Високий</p>
+                                    </div>
+                                    <div class="course__duration">
+                                        <p class="course__duration__about">12 місяців
+                                            (34 заняття)</p>
+                                    </div>
+                                    <div class="btn-group language__selected ">
+                                        <button class="btn language__btn " type="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <img src="icons/earth.png" alt="language" width="19" height="19">
+                                            <a class="dropdown__info" title="language">ua</a>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a class="dropdown-menu__titile" href="#">en</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects" class="tab-item">
+                <div class="card card-body">
+                    Some placeholder content for the collapse component. This panel is hidden by default but revealed
+                    when the user
+                    activates the relevant trigger.
+                </div>
+            </div>
+            <div id="feedback" class="tab-item">
+                <div class="card card-body">
+                    <p class="card__feedback__text"> Навчався в технікумі та університеті, за спеціальністю радіотехнік.
+                        Працював за
+                        кордоном. Коли
+                        повернувся в Україну, не
+                        знав чим зайнятись і вирішив спробувати себе у ІТ. Побачив рекламу Вінницької ІТ-Академії,
+                        дізнався,
+                        що ще й близько
+                        біля мене і вирішив тут навчатись.
+                        Під час навчання сподобалось працювати із менторами. Завдяки роботі на реальних проектах не
+                        відчував
+                        проблем коли
+                        прийшов на роботу. Адже іноді потрапляють погано написані проекти, і ти не відчуваєш
+                        розгубленості -
+                        ти чітко знаєш, що
+                        робити. Особлива подяка Олександру Панченко, який терпів усі наші “запитання” і не лише, а
+                        запитань
+                        має бути завжди
+                        багато.
+                        Після навчання пройшов 2 співбесіди, обидві успішно. Далі сам обирав компанію, в якій працюю уже
+                        1,5
+                        роки
+                        web-розробником. Робота подобається тим, що часто трапляються цікаві проекти і є можливість
+                        працювати віддалено.
+                        Майбутнім абітурієнтам бажаю мати натхнення та терпіння, тоді у вас все вийде.</p>
+                </div>
+            </div>
+            <div id="certificate" class="tab-item">
+                <div class="card card-body ">
+                    <div class="card-body__diplome">
+                        <img class="certification" src="img/main/Diplom.png" width="430" alt="certificate">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="social-net-intita row">
+            <a class="social-net-intita__item facebook intita__icon1-hover" href="http://www.facebook.com/sharer.php?u=https://ita.in.ua/"
+                title="facebook" target="_blank" rel="noopener">
+                <img clas="facebook-img" src="icons/facebook.png" alt="facebook">
+            </a>
+            <a class="social-net-intita__item"
+                href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ita.in.ua/&amp;title=Hackers' School&amp;source=LinkedIn"
+                target="_blank" title="linkedin" rel="noopener">
+                <img src="icons/linkedin.png" alt="linkedin">
+            </a>
+            <a class="social-net-intita__item" href="https://twitter.com/share?url=https://ita.in.ua/" target="_blank"
+                title="twitter" rel="noopener">
+                <img src="icons/twitter.png" alt="twitter">
+            </a>
+        </div>
+    </div>
+    <script>
+        function showTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-item");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tabs__text");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
